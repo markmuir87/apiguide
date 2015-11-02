@@ -27,8 +27,6 @@ Table 1:  API Technology Selection Guide
 +------+----------------------------------------+------------------------------------------+--------------------------+-------------------+-----------------------------------------+
 | 4    | Private query or transactional service | Synchronous , authenticated              | REST with OpenID Connect | JSON and XML      | Grant application & acquittal reporting |
 +------+----------------------------------------+------------------------------------------+--------------------------+-------------------+-----------------------------------------+
-| 5    | Peer-to-peer message exchange          | Asynchronous, routable, secure, reliable | ebMS3/AS4 with SAML2.0   | XML               | SuperStream Rollover,  UBL e-Invoice    |
-+------+----------------------------------------+------------------------------------------+--------------------------+-------------------+-----------------------------------------+
 
 
 It is expected that the vast majority of government API services will be type 3 or 4.  Therefore we provide further detailed information on REST/JSON APIs in Building and publishing APIs and further detailed information on OpenID Connect in Securing APIs.
